@@ -86,3 +86,28 @@ img {
     text-align: center;
     border-radius: 10px;
 }
+.staff-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.staff-card {
+    width: 200px;
+    text-align: center;
+    background: #f5f5f5;
+    padding: 15px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.staff-card:hover {
+    transform: scale(1.05);
+}
+
+.staff-card img {
+    width: 100%;
+    border-radius: 10px;
+}
