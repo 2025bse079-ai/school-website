@@ -143,3 +143,9 @@ body {
 h1 {
     font-size: 24px;
 }
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
