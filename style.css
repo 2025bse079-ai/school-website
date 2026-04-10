@@ -186,3 +186,22 @@ body {
   border: 5px solid blue;
   margin: 0;
 }
+.media-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.media-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.media-card {
+  width: 250px;
+  padding: 15px;
+  border-radius: 12px;
+  background: #f4f4f4;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
