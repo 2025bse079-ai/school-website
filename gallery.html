@@ -17,3 +17,29 @@
 
 </body>
 </html>
+<body>
+
+<h1>School Gallery</h1>
+
+<div class="gallery">
+
+    <a href="images/school/building.jpg" target="_blank">
+        <img src="images/school/building.jpg">
+    </a>
+
+    <a href="images/school/classroom.jpg" target="_blank">
+        <img src="images/school/classroom.jpg">
+    </a>
+
+</div>
+
+<button onclick="copyLink()">Share Gallery</button>
+
+<script>
+function copyLink() {
+    navigator.clipboard.writeText(window.location.href);
+    alert("Link copied!");
+}
+</script>
+
+</body>
