@@ -121,3 +121,18 @@ img {
     justify-content: center;
     gap: 10px;
 }
+@media (max-width: 600px) {
+
+    .staff-card {
+        width: 90%;
+    }
+
+    .gallery img {
+        width: 90%;
+    }
+
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+}
