@@ -170,3 +170,9 @@ h1 {
     <img src="images/school/students.jpg" alt="Students">
 
 </div>
+.gallery img {
+    width: 220px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
