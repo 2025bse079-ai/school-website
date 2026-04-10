@@ -30,3 +30,15 @@ nav a {
 nav a:hover {
     color: yellow;
 }
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 220px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
